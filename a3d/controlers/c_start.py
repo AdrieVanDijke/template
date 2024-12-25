@@ -13,7 +13,7 @@ class StartControler:
 
     # MAIN =====================================    
     def run(self):
-        t = "Always start the action from the view with the run function in the controller class"
+        t = "🔁 Always start the action from within the view mod with the run function in the controller mod"
         return t
 
     # WORKERS ==================================

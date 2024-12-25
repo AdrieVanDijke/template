@@ -45,17 +45,10 @@ class StartView:
 
 
     def buildMainView(self):
-        st.markdown(
-            """
-            A3D Streamlit Template
-            """,
-            unsafe_allow_html=True  
-        )
-
         with st.container():
             st.title("A3D Streamlit Template")
             st.write(self.controler.run())
-            st.write("This is the main view")
+            
 
     # WORKERS =======================================  
 
